@@ -1,9 +1,8 @@
 ﻿using Entities.Models.Accounts;
-using Entities.Models.Users.Interfaces;
 
-namespace Entities.Models.Users
+namespace Entities.Models.Users.Interfaces
 {
-    public class User: IUser
+    public interface IUser
     {
         public Guid Id { get; set; }
         public Account? Account { get; set; }
