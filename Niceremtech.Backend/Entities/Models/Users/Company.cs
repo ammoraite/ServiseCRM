@@ -3,6 +3,9 @@
 using Entities.Models.Accounts;
 using Entities.Models.Users.Interfaces;
 
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Primitives;
+
 namespace Entities.Models.Users
 {
 

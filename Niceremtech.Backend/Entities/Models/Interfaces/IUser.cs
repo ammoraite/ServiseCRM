@@ -1,5 +1,7 @@
 ﻿using Entities.Models.Accounts;
 
+using Microsoft.Extensions.Caching.Memory;
+
 namespace Entities.Models.Users.Interfaces
 {
     public interface IUser

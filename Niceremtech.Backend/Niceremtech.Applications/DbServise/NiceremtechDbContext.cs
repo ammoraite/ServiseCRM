@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Entities.Models.Accounts;
+﻿using Entities.Models.Accounts;
 using Entities.Models.Orders;
 using Entities.Models.Users;
 using Entities.Models.Users.EmployeeProperty;
 using Entities.Models.WorkSpareEntity;
-
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using NiceRemtech.Persistence.DbServise;
 
 namespace DbTests
 {
-    public class Context:DbContext
+    public class NiceremtechDbContext : DbContext,IDbContext
     {
-        
-        
         public DbSet<User> Users { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Company> Companies { get; set; }
@@ -31,14 +25,5 @@ namespace DbTests
         public DbSet<Work> Works { get; set; }
         public DbSet<SparePart> SpareParts { get; set; }
         public DbSet<Provider> Providers { get; set; }
-
-        //public Context()
-        //{
-        //    Database.EnsureCreated ( );
-        //}
-        protected override void OnConfiguring ( DbContextOptionsBuilder optionsBuilder )
-        {
-            optionsBuilder.UseNpgsql (@"Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=04031988");
-        }
     }
 }
