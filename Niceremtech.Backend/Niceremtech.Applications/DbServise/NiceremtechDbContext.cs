@@ -6,12 +6,17 @@ using Entities.Models.WorkSpareEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using NiceRemtech.Persistence.DbServise;
+
 
 namespace DbTests
 {
-    public class NiceremtechDbContext : DbContext,IDbContext
+    public class NiceremtechDbContext : DbContext
     {
+        public NiceremtechDbContext ( DbContextOptions<NiceremtechDbContext> options )
+    : base (options)
+        {
+           
+        }
         public DbSet<User> Users { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Company> Companies { get; set; }

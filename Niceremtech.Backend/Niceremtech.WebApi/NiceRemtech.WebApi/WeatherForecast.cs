@@ -1,4 +1,4 @@
-namespace Niceremtech.WebApi
+namespace NiceRemtech.WebApi
 {
     public class WeatherForecast
     {

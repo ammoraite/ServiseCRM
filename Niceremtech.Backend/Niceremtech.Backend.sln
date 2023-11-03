@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbTests", "DbTests\DbTests.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiceRemtech.Persistence", "NiceRemtech.Persistence\NiceRemtech.Persistence.csproj", "{D3EDBFBA-02A8-4A8E-AC3D-8E6B78E6923D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Niceremtech.WebApi", "Niceremtech.WebApi\Niceremtech.WebApi.csproj", "{355FA62D-D41D-4120-B759-4E939EB56046}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiceRemtech.WebApi", "NiceRemtech.WebApi\NiceRemtech.WebApi\NiceRemtech.WebApi.csproj", "{A5BECBF8-B144-4794-A429-17E08496E542}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,10 @@ Global
 		{D3EDBFBA-02A8-4A8E-AC3D-8E6B78E6923D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3EDBFBA-02A8-4A8E-AC3D-8E6B78E6923D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3EDBFBA-02A8-4A8E-AC3D-8E6B78E6923D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{355FA62D-D41D-4120-B759-4E939EB56046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{355FA62D-D41D-4120-B759-4E939EB56046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{355FA62D-D41D-4120-B759-4E939EB56046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{355FA62D-D41D-4120-B759-4E939EB56046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BECBF8-B144-4794-A429-17E08496E542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BECBF8-B144-4794-A429-17E08496E542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BECBF8-B144-4794-A429-17E08496E542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BECBF8-B144-4794-A429-17E08496E542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,7 +56,7 @@ Global
 		{215296CC-0D65-464E-8410-827343749F9E} = {A2AB9BAF-7073-474E-B533-84459D2E34CF}
 		{A170CDEE-DC9E-42DD-BDFA-0A3A0D8A53FA} = {26ABDDDE-F1DA-4593-96BF-3D939DA86CAA}
 		{D3EDBFBA-02A8-4A8E-AC3D-8E6B78E6923D} = {CD886D9C-6F08-4594-9983-2B889D6BD497}
-		{355FA62D-D41D-4120-B759-4E939EB56046} = {F59C7AAA-930D-407F-9C23-91562167C800}
+		{A5BECBF8-B144-4794-A429-17E08496E542} = {F59C7AAA-930D-407F-9C23-91562167C800}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCCD37ED-B437-4779-BCB0-F2A2AA38F468}
